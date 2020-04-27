@@ -4,8 +4,10 @@ main() {
   This operator checks the value of 1st value if it is null returns 2nd variable value otherwise 1st variable's value */
   print("\n?? operator \n");
   var x; // x is null
-  String otherExp = "I am not null"; //Returns otherExp because x is null.
-  print(x ?? otherExp); //Will return true(2nd expression value) as x is null
+  String otherExp = "I am not null"; 
+  //Returns otherExp because x is null.
+  print(x ?? otherExp); 
+  //Will return true(2nd expression value) as x is null
   var isXNull = x ?? true; 
   print(isXNull);
   print("=====================");
