@@ -15,3 +15,16 @@ main(List<string> args) {
   fooOuter();
   fooInner(); //unable to call from main because main is unawae of FooInner function
 }
+
+
+//Example2
+main() {
+  var functions = [];
+
+  for (var i = 0; i < 3; i++) {
+    functions.add(() => i);
+  }
+
+  functions.forEach((fn) => print(fn()));
+
+}
