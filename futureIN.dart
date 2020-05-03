@@ -24,3 +24,10 @@ Future get onReady {
     return 'loaded!';
   });
 }
+
+/*
+Future<T> class. An object representing a delayed computation. 
+A Future is used to represent a potential value, or error, 
+that will be available at some time in the future. 
+Receivers of a Future can register callbacks that handle the value or error once it is available.
+*/
