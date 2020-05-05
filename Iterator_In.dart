@@ -1,3 +1,10 @@
+/*
+An interface for getting items, one at a time, from an object.
+The for-in construct transparently uses Iterator to test for the end of the iteration, and to get each item (or element).
+
+*/
+
+
 main() {
   var iter = [1,5,10].iterator;
   while(iter.moveNext()) {
