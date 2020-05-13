@@ -1,16 +1,16 @@
 Unary postfix	., ?., ++, --, [``], ()
 Unary prefix	-, !, ˜, ++, --, await
 Multiplicative	*, /, ˜/, %
-Additive	+, -
+Additive	      +, -
 Shift	        <<, >>, >>>
-Bitwise AND	&
+Bitwise AND 	&
 Bitwise XOR	ˆ
 Bitwise OR	|
 Relational	<, >, <=, >=, as, is, is!
 Equality	==, !=
 Logical AND	&&
 Logical Or	||
-If-null	??
+If-null    	??
 Conditional	? :
 Cascade	..
 Assignment	=, *=, /=, +=, -=, &=, ^=
