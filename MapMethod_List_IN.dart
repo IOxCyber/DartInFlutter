@@ -5,7 +5,7 @@ class Person
   
   Person(this.firstName, this.lastName); //constractor in dart style
 }
-
+//listName.map((iterator)=>Statement)
 void main() {
 	List<Person> people = new List<Person>(); //creating object of list of Person class type
   people.add(new Person("Joe", "Smithers"));
