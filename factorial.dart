@@ -1,4 +1,4 @@
-main()=>print(fact(5));
+main()=>print(fact(5)); // short hand for writing a function in dart language.
 
 int fact(int x){
   if(x==0)
