@@ -1,0 +1,11 @@
+void outerFunction(){
+    print("Outer Function");
+    void nestedFunction(){
+      print("Nested Function");
+    }
+    nestedFunction();
+}
+
+main() {
+  outerFunction();
+}
