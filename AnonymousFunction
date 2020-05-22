@@ -1,0 +1,13 @@
+//Anonymous Function
+/*
+1.There are times when we only need to use functions once, or temporarily; only requiring the functionality of those functions.
+2.Anonymous functions are sometimes known as lambda functions or closures.
+3.(ParameterList){function body}(
+4.eg. (x){x*x*x}
+*/
+main() {
+  var list = [1,2,3];
+  list.forEach((item) {
+print(item*item*item); //Anonymous Function (item) => print(item*item*item))
+  });
+}
