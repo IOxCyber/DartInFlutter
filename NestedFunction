@@ -1,3 +1,14 @@
+/*
+1.Nested functions are functions defined within another function. When we create functions within 
+main() we are taking advantage of nested functions as main() is a function on its own.
+2.We are declaring a function outerFunction which is printing the statement Outer Function. 
+The function body of outerFunction also contains a function declaration 
+for nestedFunction. nestedFunction prints the statement Nested Function.
+3.The function body of outerFunction ends with a function call to nestedFunction.
+In main(), we are calling outerFunction, which prints both statements.
+If we called nestedFunction in main() rather than outerFunction,
+we would get an error as nestedFunction is outside the scope of main().
+*/
 void outerFunction(){
     print("Outer Function");
     void nestedFunction(){
