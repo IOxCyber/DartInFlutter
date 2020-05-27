@@ -10,7 +10,24 @@ class Person{ //Our Person class has three instance variables & All uninitialize
   String name; // Declare name, initially null.
   String gender; // Declare gender, initially null.
   int age = 0; // Declare age, initially 0.
+    // Generative Constructor
+  Person(this.name, this.gender, this.age);
+
   walking() => print('$name is walking');
-  talking() => print('$name is talking')
+  talking() => print('$name is talking');
+}
+void main(){
+  // Creating an object of the Person class
+  var firstPerson = Person(name,gender,age);
+  
+  //firstPerson.name = "Sarek";
+  //firstPerson.gender = "male";
+  //firstPerson.age = 25;
+
+  print(firstPerson.name);
+  print(firstPerson.gender);
+  print(firstPerson.age);
+  firstPerson.walking();
+  firstPerson.talking();
 }
 
