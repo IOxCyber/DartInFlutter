@@ -5,14 +5,12 @@ main() {
   print("\n?? operator \n");
   var x; // x is null
   String otherExp = "I am not null"; 
-  //Returns otherExp because x is null.
-  print(x ?? otherExp); 
-  //Will return true(2nd expression value) as x is null
-  var isXNull = x ?? true; 
+  print(x ?? otherExp);//Returns otherExp because x is null. 
+  var isXNull = x ?? true; //Will return true(2nd expression value) as x is null
   print(isXNull);
   print("=====================");
   
-  //which is the same as below
+  //which is the same as above
   if (x == null)
     print(otherExp);
   else
