@@ -1,4 +1,4 @@
-# DartInFlutter
+# Dart In Flutter
 1. [Flutter Course](https://www.appbrewery.co/p/flutter-development-bootcamp-with-dart)
 2. [Learn Dart by Examples](http://jpryan.me/dartbyexample/)
 3. [Dart Devloping](https://dart.dev/tutorials)
