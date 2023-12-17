@@ -1,7 +1,6 @@
 /*
 1.To add a new key-value pair to a map that has already been declared, use the following syntax:
 mapName[key]=value
-2.
 */
 main() {
   var numbers = Map();//Dynamic Nature Map can have anytype of key&value

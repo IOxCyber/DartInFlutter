@@ -11,7 +11,6 @@ eg.var setOfNumbers = <num>{1,1.5,2,2.5};//only have integers type value in the 
 7.Creating an Empty Set Using a Constructor
 eg. var setName = <dataType>{}
 or Set<dataType> setName = {}
-8.
 */
 main() {
   var setOfFruits = <String>{};
@@ -35,9 +34,7 @@ main() {
 
   var fruitsToCheck = {'watermelon', 'bananas'};
   print(setOfFruits.containsAll(fruitsToCheck)); // Second Method
-
-  
-  
+ 
 }
 
 
